@@ -8,28 +8,28 @@ A Model Context Protocol (MCP) server that provides cooking recipes, culinary te
 
 ### 🍳 五大核心工具 / Five Core Tools
 
-1. **获取所有菜谱** (`mcp_howtocook_getAllRecipes`)
+1. **获取所有菜谱** (`getAllRecipes`)
    - 获取完整的菜谱数据库概览
    - 返回菜谱名称和描述信息
    - ⚠️ 注意：数据量较大，建议谨慎使用
 
-2. **按分类筛选菜谱** (`mcp_howtocook_getRecipesByCategory`)
+2. **按分类筛选菜谱** (`getRecipesByCategory`)
    - 按照菜谱分类进行精准筛选
    - 支持水产、早餐、荤菜、主食等多种分类
    - 返回简化的菜谱信息和食材列表
 
-3. **查询菜谱详情** (`mcp_howtocook_getRecipeById`)
+3. **查询菜谱详情** (`getRecipeById`)
    - 根据菜谱名称查询完整详情
    - 包含详细的食材清单和制作步骤
    - 支持模糊匹配和智能建议
 
-4. **智能膳食计划** (`mcp_howtocook_recommendMeals`)
+4. **智能膳食计划** (`recommendMeals`)
    - 根据人数、过敏原、忌口食材智能推荐
    - 生成完整的一周膳食计划
    - 自动生成购物清单和分类整理
    - 工作日和周末差异化安排
 
-5. **快速菜品推荐** (`mcp_howtocook_whatToEat`)
+5. **快速菜品推荐** (`whatToEat`)
    - 不知道吃什么？一键解决选择困难
    - 根据用餐人数智能搭配荤素菜品
    - 自动平衡营养和口味

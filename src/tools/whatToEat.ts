@@ -4,7 +4,7 @@ import { Recipe, DishRecommendation } from '../types/index.js';
 import { getRandomItems, shuffleArray } from '../utils/recipeUtils.js';
 
 export const whatToEatTool: Tool = {
-  name: 'mcp_howtocook_whatToEat',
+  name: 'whatToEat',
   description: '不知道吃什么？根据人数直接推荐适合的菜品组合',
   inputSchema: {
     type: 'object',

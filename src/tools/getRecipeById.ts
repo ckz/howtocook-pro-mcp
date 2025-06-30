@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { Recipe } from '../types/index.js';
 
 export const getRecipeByIdTool: Tool = {
-  name: 'mcp_howtocook_getRecipeById',
+  name: 'getRecipeById',
   description: '根据菜谱名称查询特定菜谱的完整详情，包括食材、步骤等',
   inputSchema: {
     type: 'object',

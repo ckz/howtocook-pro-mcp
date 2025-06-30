@@ -4,7 +4,7 @@ import { Recipe, SimpleRecipe } from '../types/index.js';
 import { simplifyRecipe } from '../utils/recipeUtils.js';
 
 export const getRecipesByCategoryTool: Tool = {
-  name: 'mcp_howtocook_getRecipesByCategory',
+  name: 'getRecipesByCategory',
   description: '按照分类筛选菜谱，想吃水产？早餐？荤菜？主食？一键搞定！',
   inputSchema: {
     type: 'object',

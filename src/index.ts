@@ -69,7 +69,7 @@ class HowToCookMcpServer {
 
       try {
         switch (name) {
-          case 'mcp_howtocook_getAllRecipes':
+          case 'getAllRecipes':
             return {
               content: [
                 {
@@ -79,7 +79,7 @@ class HowToCookMcpServer {
               ],
             };
 
-          case 'mcp_howtocook_getRecipesByCategory':
+          case 'getRecipesByCategory':
             return {
               content: [
                 {
@@ -89,7 +89,7 @@ class HowToCookMcpServer {
               ],
             };
 
-          case 'mcp_howtocook_getRecipeById':
+          case 'getRecipeById':
             return {
               content: [
                 {
@@ -99,7 +99,7 @@ class HowToCookMcpServer {
               ],
             };
 
-          case 'mcp_howtocook_recommendMeals':
+          case 'recommendMeals':
             return {
               content: [
                 {
@@ -109,7 +109,7 @@ class HowToCookMcpServer {
               ],
             };
 
-          case 'mcp_howtocook_whatToEat':
+          case 'whatToEat':
             return {
               content: [
                 {

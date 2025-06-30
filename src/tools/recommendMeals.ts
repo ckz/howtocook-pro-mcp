@@ -4,7 +4,7 @@ import { Recipe, MealPlan, DayPlan, GroceryList } from '../types/index.js';
 import { getRandomItems, processRecipeIngredients, categorizeIngredients } from '../utils/recipeUtils.js';
 
 export const recommendMealsTool: Tool = {
-  name: 'mcp_howtocook_recommendMeals',
+  name: 'recommendMeals',
   description: '根据用户的忌口、过敏原、人数智能推荐菜谱，创建一周的膳食计划以及大致的购物清单',
   inputSchema: {
     type: 'object',

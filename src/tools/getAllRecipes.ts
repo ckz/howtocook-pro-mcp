@@ -3,7 +3,7 @@ import { z } from 'zod';
 import { Recipe, NameOnlyRecipe } from '../types/index.js';
 
 export const getAllRecipesTool: Tool = {
-  name: 'mcp_howtocook_getAllRecipes',
+  name: 'getAllRecipes',
   description: '获取所有可用菜谱数据，做菜百科全书 -- 慎用这个--上下文太大',
   inputSchema: {
     type: 'object',
