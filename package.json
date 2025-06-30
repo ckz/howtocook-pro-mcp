@@ -1,0 +1,32 @@
+{
+  "name": "howtocook-mcp",
+  "version": "0.1.1",
+  "description": "MCP server for cooking recipes - 做菜百科全书",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "publish": "npm run build && npm publish"
+  },
+  "keywords": [
+    "howtocook",
+    "mcp",
+    "server",
+    "recipe",
+    "food",
+    "cook"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "author": "",
+  "license": "MIT"
+}
