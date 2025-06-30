@@ -176,6 +176,11 @@ This project is hosted at: https://github.com/ckz/howtocook-pro-mcp
 
 ## 更新日志 / Changelog
 
+### v0.1.9
+- 移除工具名称前缀 mcp_howtocook_
+- 简化工具名称，提升用户体验
+- 重新构建和发布到 NPM
+
 ### v0.1.4
 - 项目重命名为 howtocook-pro-mcp
 - 完善项目文档和配置

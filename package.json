@@ -1,6 +1,6 @@
 {
   "name": "howtocook-pro-mcp",
-  "version": "0.1.4",
+  "version": "0.1.9",
   "description": "HowToCook Pro MCP Server - A Model Context Protocol server for cooking recipes and culinary assistance",
   "type": "module",
   "main": "build/index.js",
