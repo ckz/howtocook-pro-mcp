@@ -3,7 +3,7 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "node",
-    "outDir": "./dist",
+    "outDir": "./build",
     "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
@@ -20,7 +20,7 @@
   ],
   "exclude": [
     "node_modules",
-    "dist",
+    "build",
     "**/*.test.ts"
   ]
 }
